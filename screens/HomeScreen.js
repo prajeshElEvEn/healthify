@@ -407,8 +407,9 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
-        width: '70%',
-        marginLeft: 16,
+        // width: '70%',
+        flex: 1,
+        marginHorizontal: 16,
         // backgroundColor: '#e9deff',
     },
     title: {
