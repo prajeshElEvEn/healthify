@@ -1,7 +1,6 @@
 import { View, Text, ScrollView, StyleSheet } from 'react-native'
 import React, { useLayoutEffect } from 'react'
 import { useNavigation } from '@react-navigation/native'
-import { AntDesign } from '@expo/vector-icons';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
@@ -25,7 +24,7 @@ const NgoScreen = () => {
                     </Text>
                 </View>
                 <View style={styles.settingBtn}>
-                    <AntDesign name="setting" size={24} color="black" />
+                    <Ionicons name="settings-sharp" size={28} color="#5e17eb" />
                 </View>
             </View>
             <View style={styles.categoryBox}>

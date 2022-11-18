@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet, ScrollView } from 'react-native'
 import React, { useLayoutEffect } from 'react'
 import { useNavigation } from '@react-navigation/native'
-import { AntDesign } from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
@@ -24,7 +24,7 @@ const BlogScreen = () => {
                     </Text>
                 </View>
                 <View style={styles.settingBtn}>
-                    <AntDesign name="setting" size={28} color="#5e17eb" />
+                    <Ionicons name="settings-sharp" size={28} color="#5e17eb" />
                 </View>
             </View>
             <View style={styles.categoryBox}>
@@ -370,7 +370,9 @@ const styles = StyleSheet.create({
         marginRight: 8,
         backgroundColor: '#e9deff',
     },
-    blogContainer: {},
+    blogContainer: {
+        marginBottom: 16,
+    },
     blogCard: {
         marginBottom: 16,
     },
