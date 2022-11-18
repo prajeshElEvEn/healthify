@@ -16,6 +16,7 @@ const HomeScreen = () => {
             <View style={styles.navbar}></View>
             <View style={styles.categories}></View>
             <View style={styles.podcastContainer}></View>
+            <View style={styles.menu}></View>
         </View>
     )
 }
