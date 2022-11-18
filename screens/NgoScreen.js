@@ -32,10 +32,10 @@ const NgoScreen = () => {
                     Browse NGOs
                 </Text>
             </View>
-            <ScrollView style={styles.Container}>
-                <View style={styles.blogCard}>
-                    <View style={styles.cardTop}></View>
-                    <View style={styles.cardBottom}>
+            <ScrollView style={styles.ngoContainer}>
+                <View style={styles.ngoCard}>
+                    <View style={styles.cardLeft}></View>
+                    <View style={styles.cardRight}>
                         <View style={styles.cardText}>
                             <Text style={styles.title}>
                                 NGO
@@ -46,13 +46,310 @@ const NgoScreen = () => {
                         </View>
                         <View style={styles.ngoInfo}>
                             <View style={styles.ngoPhone}>
-                                <FontAwesome name="phone" size={24} color="black" />
+                                <FontAwesome name="phone" size={24} color="#5e17eb" />
                                 <Text style={styles.ngoPhoneText}>
                                     1234567890
                                 </Text>
                             </View>
                             <View style={styles.ngoLocation}>
-                                <Ionicons name="location-sharp" size={24} color="black" />
+                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoLocationText}>
+                                    Delhi
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    <View style={styles.cardLeft}></View>
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                NGO
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                description
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoPhoneText}>
+                                    1234567890
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoLocationText}>
+                                    Delhi
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    <View style={styles.cardLeft}></View>
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                NGO
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                description
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoPhoneText}>
+                                    1234567890
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoLocationText}>
+                                    Delhi
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    <View style={styles.cardLeft}></View>
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                NGO
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                description
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoPhoneText}>
+                                    1234567890
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoLocationText}>
+                                    Delhi
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    <View style={styles.cardLeft}></View>
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                NGO
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                description
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoPhoneText}>
+                                    1234567890
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoLocationText}>
+                                    Delhi
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    <View style={styles.cardLeft}></View>
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                NGO
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                description
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoPhoneText}>
+                                    1234567890
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoLocationText}>
+                                    Delhi
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    <View style={styles.cardLeft}></View>
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                NGO
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                description
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoPhoneText}>
+                                    1234567890
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoLocationText}>
+                                    Delhi
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    <View style={styles.cardLeft}></View>
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                NGO
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                description
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoPhoneText}>
+                                    1234567890
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoLocationText}>
+                                    Delhi
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    <View style={styles.cardLeft}></View>
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                NGO
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                description
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoPhoneText}>
+                                    1234567890
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoLocationText}>
+                                    Delhi
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    <View style={styles.cardLeft}></View>
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                NGO
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                description
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoPhoneText}>
+                                    1234567890
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoLocationText}>
+                                    Delhi
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    <View style={styles.cardLeft}></View>
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                NGO
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                description
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoPhoneText}>
+                                    1234567890
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoLocationText}>
+                                    Delhi
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    <View style={styles.cardLeft}></View>
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                NGO
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                description
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#5e17eb" />
+                                <Text style={styles.ngoPhoneText}>
+                                    1234567890
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
                                 <Text style={styles.ngoLocationText}>
                                     Delhi
                                 </Text>
@@ -64,16 +361,16 @@ const NgoScreen = () => {
             <View style={styles.menuBox}>
                 <View style={styles.menu}>
                     <View style={styles.menuItem}>
-                        <FontAwesome5 name="podcast" size={24} color="black" />
+                        <FontAwesome5 name="podcast" size={32} color="#5e17eb" />
                     </View>
                     <View style={styles.menuItem}>
-                        <FontAwesome5 name="blog" size={24} color="black" />
+                        <FontAwesome5 name="blog" size={32} color="#5e17eb" />
                     </View>
                     <View style={styles.menuItem}>
-                        <FontAwesome5 name="disease" size={24} color="black" />
+                        <FontAwesome5 name="disease" size={32} color="#5e17eb" />
                     </View>
                     <View style={styles.menuItem}>
-                        <MaterialCommunityIcons name="alert-circle" size={24} color="black" />
+                        <MaterialCommunityIcons name="alert-circle" size={32} color="#5e17eb" />
                     </View>
                 </View>
             </View>
@@ -86,7 +383,7 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         justifyContent: 'space-between',
         paddingHorizontal: 16,
-        paddingTop: 24,
+        paddingTop: 28,
         paddingBottom: 16,
         height: '100%',
     },
@@ -111,9 +408,94 @@ const styles = StyleSheet.create({
     },
     settingBtn: {
         padding: 10,
-        backgroundColor: 'gray',
+        backgroundColor: '#e9deff',
+        borderRadius: 10,
     },
-    categories: {},
+    categoryBox: {
+        marginTop: 60,
+    },
+    screenTitle: {
+        fontSize: 32,
+        fontWeight: 'bold',
+    },
+    categories: {
+        marginVertical: 20,
+    },
+    category: {
+        paddingHorizontal: 16,
+        paddingVertical: 8,
+        // borderColor: '#e9deff',
+        // borderWidth: 1,
+        borderRadius: 50,
+        marginRight: 8,
+        backgroundColor: '#e9deff',
+    },
+    ngoContainer: {
+        marginVertical: 20,
+    },
+    ngoCard: {
+        flexDirection: 'row',
+        marginBottom: 20,
+    },
+    cardLeft: {
+        height: 100,
+        width: 100,
+        backgroundColor: 'gray',
+        borderTopLeftRadius: 10,
+        borderBottomLeftRadius: 10,
+    },
+    cardRight: {
+        // marginLeft: 16,
+        paddingHorizontal: 16,
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        // backgroundColor: '#e9deff',
+    },
+    cardText: {
+    },
+    title: {
+        fontSize: 20,
+        fontWeight: 'bold',
+    },
+    subTitle: {
+        fontSize: 16,
+    },
+    ngoInfo: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+    },
+    ngoPhone: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    ngoPhoneText: {
+        marginLeft: 6,
+    },
+    ngoLocation: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    ngoLocationText: {
+        marginLeft: 6,
+    },
+    menuBox: {
+        // position: 'absolute',
+        // bottom: 18,
+        // justifyContent: 'center',
+        backgroundColor: '#e9deff',
+        borderRadius: 10,
+    },
+    menu: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        paddingHorizontal: 28,
+        paddingVertical: 20,
+        // width: '80%',
+    },
+    menuItem: {},
 })
 
 export default NgoScreen
