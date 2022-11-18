@@ -14,21 +14,12 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
+        {/* <Stack.Screen name="Home" component={HomeScreen} /> */}
         <Stack.Screen name="Podcast" component={PodcastScreen} />
-        <Stack.Screen name="Blog" component={BlogScreen} />
-        <Stack.Screen name="Disease" component={DiseaseScreen} />
-        <Stack.Screen name="Ngo" component={NgoScreen} />
+        {/* <Stack.Screen name="Blog" component={BlogScreen} /> */}
+        {/* <Stack.Screen name="Disease" component={DiseaseScreen} /> */}
+        {/* <Stack.Screen name="Ngo" component={NgoScreen} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
