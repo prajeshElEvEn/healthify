@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, ScrollView } from 'react-native'
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image } from 'react-native'
 import React, { useLayoutEffect } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { Ionicons } from '@expo/vector-icons';
@@ -18,13 +18,15 @@ const BlogScreen = () => {
         <View style={styles.container}>
             <View style={styles.navbar}>
                 <View style={styles.userInfo}>
-                    <View style={styles.userPhoto}></View>
+                    {/* <View style={styles.userPhoto}></View>
+                     */}
+                    <Image source={require('../assets/images/user.jpg')} style={styles.userPhoto} />
                     <Text style={styles.userName}>
                         @username
                     </Text>
                 </View>
                 <View style={styles.settingBtn}>
-                    <Ionicons name="settings-sharp" size={28} color="#5e17eb" />
+                    <Ionicons name="settings-sharp" size={28} color="#BCC3CD" />
                 </View>
             </View>
             <View style={styles.categoryBox}>
@@ -300,18 +302,30 @@ const BlogScreen = () => {
             </ScrollView>
             <View style={styles.menuBox}>
                 <View style={styles.menu}>
-                    <View style={styles.menuItem}>
-                        <FontAwesome5 name="podcast" size={32} color="#5e17eb" />
-                    </View>
-                    <View style={styles.menuItem}>
-                        <FontAwesome5 name="blog" size={32} color="#5e17eb" />
-                    </View>
-                    <View style={styles.menuItem}>
-                        <FontAwesome5 name="disease" size={32} color="#5e17eb" />
-                    </View>
-                    <View style={styles.menuItem}>
-                        <MaterialCommunityIcons name="alert-circle" size={32} color="#5e17eb" />
-                    </View>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => nav.navigate('Home')}
+                    >
+                        <FontAwesome5 name="podcast" size={32} color="#BCC3CD" />
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => nav.navigate('Blog')}
+                    >
+                        <FontAwesome5 name="blog" size={32} color="#BCC3CD" />
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => nav.navigate('Disease')}
+                    >
+                        <FontAwesome5 name="disease" size={32} color="#BCC3CD" />
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => nav.navigate('Ngo')}
+                    >
+                        <MaterialCommunityIcons name="alert-circle" size={32} color="#BCC3CD" />
+                    </TouchableOpacity>
                 </View>
             </View>
         </View>
@@ -326,8 +340,11 @@ const styles = StyleSheet.create({
         paddingTop: 28,
         paddingBottom: 16,
         height: '100%',
+        backgroundColor: '#14191F',
+        // color: '#fff'
     },
     navbar: {
+        color: '#fff',
         flexDirection: 'row',
         justifyContent: 'space-between',
     },
@@ -344,19 +361,23 @@ const styles = StyleSheet.create({
     userName: {
         fontSize: 20,
         fontWeight: 'bold',
-        marginLeft: 6,
+        marginLeft: 10,
+        color: '#BCC3CD',
     },
     settingBtn: {
         padding: 10,
-        backgroundColor: '#e9deff',
+        backgroundColor: '#1C2026',
         borderRadius: 10,
+        borderColor: '#3d3d3d',
+        borderWidth: 1,
     },
     categoryBox: {
         marginTop: 60,
     },
     screenTitle: {
-        fontSize: 32,
+        fontSize: 48,
         fontWeight: 'bold',
+        color: '#BCC3CD',
     },
     categories: {
         marginVertical: 20,
@@ -368,13 +389,23 @@ const styles = StyleSheet.create({
         // borderWidth: 1,
         borderRadius: 50,
         marginRight: 8,
-        backgroundColor: '#e9deff',
+        backgroundColor: '#122447',
+        borderColor: '#1c448e',
+        borderWidth: 1,
+    },
+    categoryName: {
+        color: '#BCC3CD',
+        fontSize: 16,
     },
     blogContainer: {
         marginBottom: 16,
     },
     blogCard: {
         marginBottom: 16,
+        backgroundColor: '#1C2026',
+        borderRadius: 10,
+        borderColor: '#3d3d3d',
+        borderWidth: 1,
     },
     cardTop: {
         height: 150,
@@ -391,9 +422,11 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 20,
         fontWeight: 'bold',
+        color: '#BCC3CD',
     },
     subTitle: {
         fontSize: 16,
+        color: '#BCC3CD',
     },
     authorInfo: {
         flexDirection: 'row',
@@ -410,13 +443,16 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
         marginLeft: 6,
+        color: '#BCC3CD',
     },
     menuBox: {
         // position: 'absolute',
         // bottom: 18,
         // justifyContent: 'center',
-        backgroundColor: '#e9deff',
+        backgroundColor: '#1C2026',
         borderRadius: 10,
+        borderColor: '#3d3d3d',
+        borderWidth: 1,
     },
     menu: {
         flexDirection: 'row',

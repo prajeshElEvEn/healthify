@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, ScrollView, TextInput } from 'react-native'
+import { View, Text, StyleSheet, ScrollView, TextInput, TouchableOpacity } from 'react-native'
 import React, { useLayoutEffect } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { Ionicons } from '@expo/vector-icons';
@@ -104,18 +104,30 @@ const DiseaseScreen = () => {
             </View>
             <View style={styles.menuBox}>
                 <View style={styles.menu}>
-                    <View style={styles.menuItem}>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => nav.navigate('Home')}
+                    >
                         <FontAwesome5 name="podcast" size={32} color="#5e17eb" />
-                    </View>
-                    <View style={styles.menuItem}>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => nav.navigate('Blog')}
+                    >
                         <FontAwesome5 name="blog" size={32} color="#5e17eb" />
-                    </View>
-                    <View style={styles.menuItem}>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => nav.navigate('Disease')}
+                    >
                         <FontAwesome5 name="disease" size={32} color="#5e17eb" />
-                    </View>
-                    <View style={styles.menuItem}>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => nav.navigate('Ngo')}
+                    >
                         <MaterialCommunityIcons name="alert-circle" size={32} color="#5e17eb" />
-                    </View>
+                    </TouchableOpacity>
                 </View>
             </View>
         </View>

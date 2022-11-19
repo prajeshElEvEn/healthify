@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, ScrollView } from 'react-native'
+import { View, Text, StyleSheet, ScrollView, Touchable, TouchableOpacity, Image } from 'react-native'
 import React, { useLayoutEffect } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { Ionicons } from '@expo/vector-icons';
@@ -17,14 +17,15 @@ const HomeScreen = () => {
         <View style={styles.container}>
             <View style={styles.navbar}>
                 <View style={styles.userInfo}>
-                    <View style={styles.userPhoto}></View>
+                    {/* <View style={styles.userPhoto}></View> */}
+                    <Image source={require('../assets/images/user.jpg')} style={styles.userPhoto} />
                     <Text style={styles.userName}>
                         @username
                     </Text>
                 </View>
-                <View style={styles.settingBtn}>
-                    <Ionicons name="settings-sharp" size={28} color="#5e17eb" />
-                </View>
+                <TouchableOpacity style={styles.settingBtn}>
+                    <Ionicons name="settings-sharp" size={28} color="#BCC3CD" />
+                </TouchableOpacity>
             </View>
             <View style={styles.categoryBox}>
                 <Text style={styles.screenTitle}>
@@ -87,8 +88,9 @@ const HomeScreen = () => {
                 </ScrollView>
             </View>
             <ScrollView style={styles.podcastContainer}>
-                <View style={styles.podcastCard}>
-                    <View style={styles.cardLeft}></View>
+                <TouchableOpacity style={styles.podcastCard}>
+                    {/* <View style={styles.cardLeft}></View> */}
+                    <Image source={require('../assets/images/podcast-cover.jpg')} style={styles.cardLeft} />
                     <View style={styles.cardRight}>
                         <View style={styles.cardText}>
                             <Text style={styles.title}>
@@ -102,234 +104,37 @@ const HomeScreen = () => {
                             </Text>
                         </View>
                         <View style={styles.playBtn}>
-                            <FontAwesome5 name="play" size={28} color="#5e17eb" />
+                            <FontAwesome5 name="play" size={28} color="#8FCAFF" />
                         </View>
                     </View>
-                </View>
-                <View style={styles.podcastCard}>
-                    <View style={styles.cardLeft}></View>
-                    <View style={styles.cardRight}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Podcast Title
-                            </Text>
-                            <Text style={styles.author}>
-                                Save the youth
-                            </Text>
-                            <Text style={styles.duration}>
-                                6min
-                            </Text>
-                        </View>
-                        <View style={styles.playBtn}>
-                            <FontAwesome5 name="play" size={28} color="#5e17eb" />
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.podcastCard}>
-                    <View style={styles.cardLeft}></View>
-                    <View style={styles.cardRight}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Podcast Title
-                            </Text>
-                            <Text style={styles.author}>
-                                Save the youth
-                            </Text>
-                            <Text style={styles.duration}>
-                                6min
-                            </Text>
-                        </View>
-                        <View style={styles.playBtn}>
-                            <FontAwesome5 name="play" size={28} color="#5e17eb" />
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.podcastCard}>
-                    <View style={styles.cardLeft}></View>
-                    <View style={styles.cardRight}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Podcast Title
-                            </Text>
-                            <Text style={styles.author}>
-                                Save the youth
-                            </Text>
-                            <Text style={styles.duration}>
-                                6min
-                            </Text>
-                        </View>
-                        <View style={styles.playBtn}>
-                            <FontAwesome5 name="play" size={28} color="#5e17eb" />
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.podcastCard}>
-                    <View style={styles.cardLeft}></View>
-                    <View style={styles.cardRight}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Podcast Title
-                            </Text>
-                            <Text style={styles.author}>
-                                Save the youth
-                            </Text>
-                            <Text style={styles.duration}>
-                                6min
-                            </Text>
-                        </View>
-                        <View style={styles.playBtn}>
-                            <FontAwesome5 name="play" size={28} color="#5e17eb" />
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.podcastCard}>
-                    <View style={styles.cardLeft}></View>
-                    <View style={styles.cardRight}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Podcast Title
-                            </Text>
-                            <Text style={styles.author}>
-                                Save the youth
-                            </Text>
-                            <Text style={styles.duration}>
-                                6min
-                            </Text>
-                        </View>
-                        <View style={styles.playBtn}>
-                            <FontAwesome5 name="play" size={28} color="#5e17eb" />
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.podcastCard}>
-                    <View style={styles.cardLeft}></View>
-                    <View style={styles.cardRight}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Podcast Title
-                            </Text>
-                            <Text style={styles.author}>
-                                Save the youth
-                            </Text>
-                            <Text style={styles.duration}>
-                                6min
-                            </Text>
-                        </View>
-                        <View style={styles.playBtn}>
-                            <FontAwesome5 name="play" size={28} color="#5e17eb" />
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.podcastCard}>
-                    <View style={styles.cardLeft}></View>
-                    <View style={styles.cardRight}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Podcast Title
-                            </Text>
-                            <Text style={styles.author}>
-                                Save the youth
-                            </Text>
-                            <Text style={styles.duration}>
-                                6min
-                            </Text>
-                        </View>
-                        <View style={styles.playBtn}>
-                            <FontAwesome5 name="play" size={28} color="#5e17eb" />
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.podcastCard}>
-                    <View style={styles.cardLeft}></View>
-                    <View style={styles.cardRight}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Podcast Title
-                            </Text>
-                            <Text style={styles.author}>
-                                Save the youth
-                            </Text>
-                            <Text style={styles.duration}>
-                                6min
-                            </Text>
-                        </View>
-                        <View style={styles.playBtn}>
-                            <FontAwesome5 name="play" size={28} color="#5e17eb" />
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.podcastCard}>
-                    <View style={styles.cardLeft}></View>
-                    <View style={styles.cardRight}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Podcast Title
-                            </Text>
-                            <Text style={styles.author}>
-                                Save the youth
-                            </Text>
-                            <Text style={styles.duration}>
-                                6min
-                            </Text>
-                        </View>
-                        <View style={styles.playBtn}>
-                            <FontAwesome5 name="play" size={28} color="#5e17eb" />
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.podcastCard}>
-                    <View style={styles.cardLeft}></View>
-                    <View style={styles.cardRight}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Podcast Title
-                            </Text>
-                            <Text style={styles.author}>
-                                Save the youth
-                            </Text>
-                            <Text style={styles.duration}>
-                                6min
-                            </Text>
-                        </View>
-                        <View style={styles.playBtn}>
-                            <FontAwesome5 name="play" size={28} color="#5e17eb" />
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.podcastCard}>
-                    <View style={styles.cardLeft}></View>
-                    <View style={styles.cardRight}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Podcast Title
-                            </Text>
-                            <Text style={styles.author}>
-                                Save the youth
-                            </Text>
-                            <Text style={styles.duration}>
-                                6min
-                            </Text>
-                        </View>
-                        <View style={styles.playBtn}>
-                            <FontAwesome5 name="play" size={28} color="#5e17eb" />
-                        </View>
-                    </View>
-                </View>
+                </TouchableOpacity>
             </ScrollView>
             <View style={styles.menuBox}>
                 <View style={styles.menu}>
-                    <View style={styles.menuItem}>
-                        <FontAwesome5 name="podcast" size={32} color="#5e17eb" />
-                    </View>
-                    <View style={styles.menuItem}>
-                        <FontAwesome5 name="blog" size={32} color="#5e17eb" />
-                    </View>
-                    <View style={styles.menuItem}>
-                        <FontAwesome5 name="disease" size={32} color="#5e17eb" />
-                    </View>
-                    <View style={styles.menuItem}>
-                        <MaterialCommunityIcons name="alert-circle" size={32} color="#5e17eb" />
-                    </View>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => nav.navigate('Home')}
+                    >
+                        <FontAwesome5 name="podcast" size={32} color="#BCC3CD" />
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => nav.navigate('Blog')}
+                    >
+                        <FontAwesome5 name="blog" size={32} color="#BCC3CD" />
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => nav.navigate('Disease')}
+                    >
+                        <FontAwesome5 name="disease" size={32} color="#BCC3CD" />
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={styles.menuItem}
+                        onPress={() => nav.navigate('Ngo')}
+                    >
+                        <MaterialCommunityIcons name="alert-circle" size={32} color="#BCC3CD" />
+                    </TouchableOpacity>
                 </View>
             </View>
         </View>
@@ -344,8 +149,11 @@ const styles = StyleSheet.create({
         paddingTop: 28,
         paddingBottom: 16,
         height: '100%',
+        backgroundColor: '#14191F',
+        // color: '#fff'
     },
     navbar: {
+        color: '#fff',
         flexDirection: 'row',
         justifyContent: 'space-between',
     },
@@ -362,19 +170,23 @@ const styles = StyleSheet.create({
     userName: {
         fontSize: 20,
         fontWeight: 'bold',
-        marginLeft: 6,
+        marginLeft: 10,
+        color: '#BCC3CD',
     },
     settingBtn: {
         padding: 10,
-        backgroundColor: '#e9deff',
+        backgroundColor: '#1C2026',
         borderRadius: 10,
+        borderColor: '#3d3d3d',
+        borderWidth: 1,
     },
     categoryBox: {
         marginTop: 60,
     },
     screenTitle: {
-        fontSize: 32,
+        fontSize: 48,
         fontWeight: 'bold',
+        color: '#BCC3CD',
     },
     categories: {
         marginVertical: 20,
@@ -386,7 +198,13 @@ const styles = StyleSheet.create({
         // borderWidth: 1,
         borderRadius: 50,
         marginRight: 8,
-        backgroundColor: '#e9deff',
+        backgroundColor: '#122447',
+        borderColor: '#1c448e',
+        borderWidth: 1,
+    },
+    categoryName: {
+        color: '#BCC3CD',
+        fontSize: 16,
     },
     podcastContainer: {
         marginBottom: 20,
@@ -394,7 +212,10 @@ const styles = StyleSheet.create({
     podcastCard: {
         flexDirection: 'row',
         marginBottom: 16,
-        // backgroundColor: '#e9deff',
+        backgroundColor: '#1C2026',
+        borderRadius: 10,
+        borderColor: '#3d3d3d',
+        borderWidth: 1,
     },
     cardLeft: {
         height: 120,
@@ -415,25 +236,32 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 22,
         fontWeight: 'bold',
+        color: '#BCC3CD',
     },
     author: {
         fontSize: 18,
+        color: '#BCC3CD',
     },
     duration: {
         fontSize: 16,
+        color: '#BCC3CD',
     },
     playBtn: {
         paddingHorizontal: 24,
         paddingVertical: 20,
-        backgroundColor: '#e9deff',
+        backgroundColor: '#122447',
+        borderColor: '#1c448e',
+        borderWidth: 1,
         borderRadius: 50,
     },
     menuBox: {
         // position: 'absolute',
         // bottom: 18,
         // justifyContent: 'center',
-        backgroundColor: '#e9deff',
+        backgroundColor: '#1C2026',
         borderRadius: 10,
+        borderColor: '#3d3d3d',
+        borderWidth: 1,
     },
     menu: {
         flexDirection: 'row',
