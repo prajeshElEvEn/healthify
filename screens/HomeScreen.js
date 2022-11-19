@@ -37,7 +37,7 @@ const HomeScreen = () => {
                 >
                     <View style={styles.category}>
                         <Text style={styles.categoryName}>
-                            Most Popular
+                            Live
                         </Text>
                     </View>
                     <View style={styles.category}>
@@ -47,42 +47,22 @@ const HomeScreen = () => {
                     </View>
                     <View style={styles.category}>
                         <Text style={styles.categoryName}>
-                            Most Popular
+                            Women Health
                         </Text>
                     </View>
                     <View style={styles.category}>
                         <Text style={styles.categoryName}>
-                            Most Popular
+                            Hygiene
                         </Text>
                     </View>
                     <View style={styles.category}>
                         <Text style={styles.categoryName}>
-                            Most Popular
+                            Covid 19
                         </Text>
                     </View>
                     <View style={styles.category}>
                         <Text style={styles.categoryName}>
-                            Most Popular
-                        </Text>
-                    </View>
-                    <View style={styles.category}>
-                        <Text style={styles.categoryName}>
-                            Most Popular
-                        </Text>
-                    </View>
-                    <View style={styles.category}>
-                        <Text style={styles.categoryName}>
-                            Most Popular
-                        </Text>
-                    </View>
-                    <View style={styles.category}>
-                        <Text style={styles.categoryName}>
-                            Most Popular
-                        </Text>
-                    </View>
-                    <View style={styles.category}>
-                        <Text style={styles.categoryName}>
-                            Most Popular
+                            Mental Health
                         </Text>
                     </View>
                 </ScrollView>
@@ -90,17 +70,97 @@ const HomeScreen = () => {
             <ScrollView style={styles.podcastContainer}>
                 <TouchableOpacity style={styles.podcastCard}>
                     {/* <View style={styles.cardLeft}></View> */}
-                    <Image source={require('../assets/images/podcast-cover.jpg')} style={styles.cardLeft} />
+                    <Image source={require('../assets/images/ted.jpg')} style={styles.cardLeft} />
                     <View style={styles.cardRight}>
                         <View style={styles.cardText}>
                             <Text style={styles.title}>
-                                Podcast Title
+                                TED Health
                             </Text>
                             <Text style={styles.author}>
-                                Save the youth
+                                TED
                             </Text>
                             <Text style={styles.duration}>
-                                6min
+                                44min 16sec
+                            </Text>
+                        </View>
+                        <View style={styles.playBtn}>
+                            <FontAwesome5 name="play" size={28} color="#8FCAFF" />
+                        </View>
+                    </View>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.podcastCard}>
+                    {/* <View style={styles.cardLeft}></View> */}
+                    <Image source={require('../assets/images/nutrition.jpeg')} style={styles.cardLeft} />
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                Nutrition Secrets
+                            </Text>
+                            <Text style={styles.author}>
+                                Red FM
+                            </Text>
+                            <Text style={styles.duration}>
+                                4min 36sec
+                            </Text>
+                        </View>
+                        <View style={styles.playBtn}>
+                            <FontAwesome5 name="play" size={28} color="#8FCAFF" />
+                        </View>
+                    </View>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.podcastCard}>
+                    {/* <View style={styles.cardLeft}></View> */}
+                    <Image source={require('../assets/images/uk.jpeg')} style={styles.cardLeft} />
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                UK HealthCast
+                            </Text>
+                            <Text style={styles.author}>
+                                UK HealthCare
+                            </Text>
+                            <Text style={styles.duration}>
+                                4min 36sec
+                            </Text>
+                        </View>
+                        <View style={styles.playBtn}>
+                            <FontAwesome5 name="play" size={28} color="#8FCAFF" />
+                        </View>
+                    </View>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.podcastCard}>
+                    {/* <View style={styles.cardLeft}></View> */}
+                    <Image source={require('../assets/images/fit.jpeg')} style={styles.cardLeft} />
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                Fit, Healthy & Happy
+                            </Text>
+                            <Text style={styles.author}>
+                                Colossus Fitness
+                            </Text>
+                            <Text style={styles.duration}>
+                                4min 36sec
+                            </Text>
+                        </View>
+                        <View style={styles.playBtn}>
+                            <FontAwesome5 name="play" size={28} color="#8FCAFF" />
+                        </View>
+                    </View>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.podcastCard}>
+                    {/* <View style={styles.cardLeft}></View> */}
+                    <Image source={require('../assets/images/health.jpeg')} style={styles.cardLeft} />
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                Health Talk
+                            </Text>
+                            <Text style={styles.author}>
+                                TriHealth
+                            </Text>
+                            <Text style={styles.duration}>
+                                4min 36sec
                             </Text>
                         </View>
                         <View style={styles.playBtn}>

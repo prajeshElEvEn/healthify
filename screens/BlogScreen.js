@@ -39,7 +39,7 @@ const BlogScreen = () => {
                 >
                     <View style={styles.category}>
                         <Text style={styles.categoryName}>
-                            Most Popular
+                            Live
                         </Text>
                     </View>
                     <View style={styles.category}>
@@ -49,42 +49,22 @@ const BlogScreen = () => {
                     </View>
                     <View style={styles.category}>
                         <Text style={styles.categoryName}>
-                            Most Popular
+                            Women Health
                         </Text>
                     </View>
                     <View style={styles.category}>
                         <Text style={styles.categoryName}>
-                            Most Popular
+                            Hygiene
                         </Text>
                     </View>
                     <View style={styles.category}>
                         <Text style={styles.categoryName}>
-                            Most Popular
+                            Covid 19
                         </Text>
                     </View>
                     <View style={styles.category}>
                         <Text style={styles.categoryName}>
-                            Most Popular
-                        </Text>
-                    </View>
-                    <View style={styles.category}>
-                        <Text style={styles.categoryName}>
-                            Most Popular
-                        </Text>
-                    </View>
-                    <View style={styles.category}>
-                        <Text style={styles.categoryName}>
-                            Most Popular
-                        </Text>
-                    </View>
-                    <View style={styles.category}>
-                        <Text style={styles.categoryName}>
-                            Most Popular
-                        </Text>
-                    </View>
-                    <View style={styles.category}>
-                        <Text style={styles.categoryName}>
-                            Most Popular
+                            Mental Health
                         </Text>
                     </View>
                 </ScrollView>
@@ -92,21 +72,63 @@ const BlogScreen = () => {
             <ScrollView style={styles.blogContainer}>
                 <TouchableOpacity style={styles.blogCard}>
                     {/* <View style={styles.cardTop}></View> */}
-                    <Image source={require('../assets/images/blog-cover.jpg')} style={styles.cardTop} />
+                    <Image source={require('../assets/images/blog1.jpg')} style={styles.cardTop} />
                     <View style={styles.cardBottom}>
                         <View style={styles.cardText}>
                             <Text style={styles.title}>
-                                Blog Title
+                                Some Legit Ways To Save Money On Prescription Medications
                             </Text>
                             <Text style={styles.subTitle}>
-                                Save the youth sum sum sum
+                                It’s no secret that prescription medications can be expensive and can even be prohibitively costly for certain segments of society. Fortunately, there are many…
                             </Text>
                         </View>
                         <View style={styles.authorInfo}>
                             {/* <View style={styles.authorPhoto}></View> */}
                             <Image source={require('../assets/images/blog-user.jpg')} style={styles.authorPhoto} />
                             <Text style={styles.authorName}>
-                                @username
+                                George Hanks
+                            </Text>
+                        </View>
+                    </View>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.blogCard}>
+                    {/* <View style={styles.cardTop}></View> */}
+                    <Image source={require('../assets/images/blog2.jpg')} style={styles.cardTop} />
+                    <View style={styles.cardBottom}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                You Should Follow These Tips To Achieve A Healthy Weight
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                Most people would like to be a healthy weight, whatever that means for their body type. Unfortunately, not many people know how to achieve…
+                            </Text>
+                        </View>
+                        <View style={styles.authorInfo}>
+                            {/* <View style={styles.authorPhoto}></View> */}
+                            <Image source={require('../assets/images/blog-user.jpg')} style={styles.authorPhoto} />
+                            <Text style={styles.authorName}>
+                                Mark Stevens
+                            </Text>
+                        </View>
+                    </View>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.blogCard}>
+                    {/* <View style={styles.cardTop}></View> */}
+                    <Image source={require('../assets/images/blog3.jpg')} style={styles.cardTop} />
+                    <View style={styles.cardBottom}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                Dieting With Weight Loss Shakes? Here’s How To Do It Right
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                When it comes to dieting, there are many different ways you can go about it. Some people choose to cut out certain foods altogether,…
+                            </Text>
+                        </View>
+                        <View style={styles.authorInfo}>
+                            {/* <View style={styles.authorPhoto}></View> */}
+                            <Image source={require('../assets/images/blog-user.jpg')} style={styles.authorPhoto} />
+                            <Text style={styles.authorName}>
+                                Rachel Purton
                             </Text>
                         </View>
                     </View>
@@ -218,9 +240,11 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         borderColor: '#3d3d3d',
         borderWidth: 1,
+        flex: 1,
     },
     cardTop: {
-        height: 150,
+        height: 200,
+        width: '100%',
         backgroundColor: 'gray',
         borderTopLeftRadius: 10,
         borderTopRightRadius: 10,

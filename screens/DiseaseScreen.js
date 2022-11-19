@@ -45,6 +45,18 @@ const DiseaseScreen = () => {
                                 <Entypo name="cross" size={24} color="#8FCAFF" />
                             </View>
                         </View>
+                        <View style={styles.symptom}>
+                            <Text style={styles.sympText}>Body Ache</Text>
+                            <View style={styles.crossBtn}>
+                                <Entypo name="cross" size={24} color="#8FCAFF" />
+                            </View>
+                        </View>
+                        <View style={styles.symptom}>
+                            <Text style={styles.sympText}>Runny Nose</Text>
+                            <View style={styles.crossBtn}>
+                                <Entypo name="cross" size={24} color="#8FCAFF" />
+                            </View>
+                        </View>
                     </View>
                     <View style={styles.inputBox}>
                         <TextInput

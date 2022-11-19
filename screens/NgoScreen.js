@@ -36,27 +36,139 @@ const NgoScreen = () => {
             <ScrollView style={styles.ngoContainer}>
                 <View style={styles.ngoCard}>
                     {/* <View style={styles.cardLeft}></View> */}
-                    <Image source={require('../assets/images/ngo-logo.jpg')} style={styles.cardLeft} />
+                    <Image source={require('../assets/images/ngo1.jpeg')} style={styles.cardLeft} />
                     <View style={styles.cardRight}>
                         <View style={styles.cardText}>
                             <Text style={styles.title}>
-                                NGO
+                                Doctors For You
                             </Text>
                             <Text style={styles.subTitle}>
-                                description
+                                Doctors For You (DFY) started as a platelet donation and...
                             </Text>
                         </View>
                         <View style={styles.ngoInfo}>
                             <View style={styles.ngoPhone}>
                                 <FontAwesome name="phone" size={24} color="#BCC3CD" />
                                 <Text style={styles.ngoPhoneText}>
-                                    1234567890
+                                    +919645071986
                                 </Text>
                             </View>
                             <View style={styles.ngoLocation}>
                                 <Ionicons name="location-sharp" size={24} color="#BCC3CD" />
                                 <Text style={styles.ngoLocationText}>
-                                    Delhi
+                                    Mumbai, India
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    {/* <View style={styles.cardLeft}></View> */}
+                    <Image source={require('../assets/images/ngo2.jpg')} style={styles.cardLeft} />
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                Rural Health Care Foundation
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                Rural Health Care Foundation (RHCF), an organization working in the sphere of...
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#BCC3CD" />
+                                <Text style={styles.ngoPhoneText}>
+                                    +913340082981
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#BCC3CD" />
+                                <Text style={styles.ngoLocationText}>
+                                    West Bengal, India
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    {/* <View style={styles.cardLeft}></View> */}
+                    <Image source={require('../assets/images/ngo3.jpg')} style={styles.cardLeft} />
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                Swasth Foundation
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                Swasth Foundation is a not-for-profit organisation established in 2009...
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#BCC3CD" />
+                                <Text style={styles.ngoPhoneText}>
+                                    +919820441957
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#BCC3CD" />
+                                <Text style={styles.ngoLocationText}>
+                                    Mumbai, India
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    {/* <View style={styles.cardLeft}></View> */}
+                    <Image source={require('../assets/images/ngo4.jpg')} style={styles.cardLeft} />
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                CanKids KidsCan
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                CanKids KidsCan - The National Society For Change For Childhood Cancer...
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#BCC3CD" />
+                                <Text style={styles.ngoPhoneText}>
+                                    +919811525745
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#BCC3CD" />
+                                <Text style={styles.ngoLocationText}>
+                                    Delhi, India
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+                <View style={styles.ngoCard}>
+                    {/* <View style={styles.cardLeft}></View> */}
+                    <Image source={require('../assets/images/ngo5.jpg')} style={styles.cardLeft} />
+                    <View style={styles.cardRight}>
+                        <View style={styles.cardText}>
+                            <Text style={styles.title}>
+                                DoctorsForSeva Arogya Foundation
+                            </Text>
+                            <Text style={styles.subTitle}>
+                                Aarogya Seva is an international, humanitarian volunteer organization...
+                            </Text>
+                        </View>
+                        <View style={styles.ngoInfo}>
+                            <View style={styles.ngoPhone}>
+                                <FontAwesome name="phone" size={24} color="#BCC3CD" />
+                                <Text style={styles.ngoPhoneText}>
+                                    +919481787966
+                                </Text>
+                            </View>
+                            <View style={styles.ngoLocation}>
+                                <Ionicons name="location-sharp" size={24} color="#BCC3CD" />
+                                <Text style={styles.ngoLocationText}>
+                                    Karnataka, India
                                 </Text>
                             </View>
                         </View>
@@ -172,8 +284,8 @@ const styles = StyleSheet.create({
         borderWidth: 1,
     },
     cardLeft: {
-        height: 120,
-        width: 120,
+        height: 150,
+        width: 150,
         backgroundColor: 'gray',
         borderTopLeftRadius: 10,
         borderBottomLeftRadius: 10,
