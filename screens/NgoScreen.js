@@ -48,13 +48,13 @@ const NgoScreen = () => {
                         </View>
                         <View style={styles.ngoInfo}>
                             <View style={styles.ngoPhone}>
-                                <FontAwesome name="phone" size={24} color="#5e17eb" />
+                                <FontAwesome name="phone" size={24} color="#BCC3CD" />
                                 <Text style={styles.ngoPhoneText}>
                                     1234567890
                                 </Text>
                             </View>
                             <View style={styles.ngoLocation}>
-                                <Ionicons name="location-sharp" size={24} color="#5e17eb" />
+                                <Ionicons name="location-sharp" size={24} color="#BCC3CD" />
                                 <Text style={styles.ngoLocationText}>
                                     Delhi
                                 </Text>
@@ -69,25 +69,25 @@ const NgoScreen = () => {
                         style={styles.menuItem}
                         onPress={() => nav.navigate('Home')}
                     >
-                        <FontAwesome5 name="podcast" size={32} color="#5e17eb" />
+                        <FontAwesome5 name="podcast" size={32} color="#BCC3CD" />
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={styles.menuItem}
                         onPress={() => nav.navigate('Blog')}
                     >
-                        <FontAwesome5 name="blog" size={32} color="#5e17eb" />
+                        <FontAwesome5 name="blog" size={32} color="#BCC3CD" />
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={styles.menuItem}
                         onPress={() => nav.navigate('Disease')}
                     >
-                        <FontAwesome5 name="disease" size={32} color="#5e17eb" />
+                        <FontAwesome5 name="disease" size={32} color="#BCC3CD" />
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={styles.menuItem}
                         onPress={() => nav.navigate('Ngo')}
                     >
-                        <MaterialCommunityIcons name="alert-circle" size={32} color="#5e17eb" />
+                        <MaterialCommunityIcons name="alert-circle" size={32} color="#BCC3CD" />
                     </TouchableOpacity>
                 </View>
             </View>
