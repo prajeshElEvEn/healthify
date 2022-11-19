@@ -90,8 +90,9 @@ const BlogScreen = () => {
                 </ScrollView>
             </View>
             <ScrollView style={styles.blogContainer}>
-                <View style={styles.blogCard}>
-                    <View style={styles.cardTop}></View>
+                <TouchableOpacity style={styles.blogCard}>
+                    {/* <View style={styles.cardTop}></View> */}
+                    <Image source={require('../assets/images/blog-cover.jpg')} style={styles.cardTop} />
                     <View style={styles.cardBottom}>
                         <View style={styles.cardText}>
                             <Text style={styles.title}>
@@ -102,203 +103,14 @@ const BlogScreen = () => {
                             </Text>
                         </View>
                         <View style={styles.authorInfo}>
-                            <View style={styles.authorPhoto}></View>
+                            {/* <View style={styles.authorPhoto}></View> */}
+                            <Image source={require('../assets/images/blog-user.jpg')} style={styles.authorPhoto} />
                             <Text style={styles.authorName}>
                                 @username
                             </Text>
                         </View>
                     </View>
-                </View>
-                <View style={styles.blogCard}>
-                    <View style={styles.cardTop}></View>
-                    <View style={styles.cardBottom}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Blog Title
-                            </Text>
-                            <Text style={styles.subTitle}>
-                                Save the youth sum sum sum
-                            </Text>
-                        </View>
-                        <View style={styles.authorInfo}>
-                            <View style={styles.authorPhoto}></View>
-                            <Text style={styles.authorName}>
-                                @username
-                            </Text>
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.blogCard}>
-                    <View style={styles.cardTop}></View>
-                    <View style={styles.cardBottom}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Blog Title
-                            </Text>
-                            <Text style={styles.subTitle}>
-                                Save the youth sum sum sum
-                            </Text>
-                        </View>
-                        <View style={styles.authorInfo}>
-                            <View style={styles.authorPhoto}></View>
-                            <Text style={styles.authorName}>
-                                @username
-                            </Text>
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.blogCard}>
-                    <View style={styles.cardTop}></View>
-                    <View style={styles.cardBottom}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Blog Title
-                            </Text>
-                            <Text style={styles.subTitle}>
-                                Save the youth sum sum sum
-                            </Text>
-                        </View>
-                        <View style={styles.authorInfo}>
-                            <View style={styles.authorPhoto}></View>
-                            <Text style={styles.authorName}>
-                                @username
-                            </Text>
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.blogCard}>
-                    <View style={styles.cardTop}></View>
-                    <View style={styles.cardBottom}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Blog Title
-                            </Text>
-                            <Text style={styles.subTitle}>
-                                Save the youth sum sum sum
-                            </Text>
-                        </View>
-                        <View style={styles.authorInfo}>
-                            <View style={styles.authorPhoto}></View>
-                            <Text style={styles.authorName}>
-                                @username
-                            </Text>
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.blogCard}>
-                    <View style={styles.cardTop}></View>
-                    <View style={styles.cardBottom}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Blog Title
-                            </Text>
-                            <Text style={styles.subTitle}>
-                                Save the youth sum sum sum
-                            </Text>
-                        </View>
-                        <View style={styles.authorInfo}>
-                            <View style={styles.authorPhoto}></View>
-                            <Text style={styles.authorName}>
-                                @username
-                            </Text>
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.blogCard}>
-                    <View style={styles.cardTop}></View>
-                    <View style={styles.cardBottom}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Blog Title
-                            </Text>
-                            <Text style={styles.subTitle}>
-                                Save the youth sum sum sum
-                            </Text>
-                        </View>
-                        <View style={styles.authorInfo}>
-                            <View style={styles.authorPhoto}></View>
-                            <Text style={styles.authorName}>
-                                @username
-                            </Text>
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.blogCard}>
-                    <View style={styles.cardTop}></View>
-                    <View style={styles.cardBottom}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Blog Title
-                            </Text>
-                            <Text style={styles.subTitle}>
-                                Save the youth sum sum sum
-                            </Text>
-                        </View>
-                        <View style={styles.authorInfo}>
-                            <View style={styles.authorPhoto}></View>
-                            <Text style={styles.authorName}>
-                                @username
-                            </Text>
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.blogCard}>
-                    <View style={styles.cardTop}></View>
-                    <View style={styles.cardBottom}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Blog Title
-                            </Text>
-                            <Text style={styles.subTitle}>
-                                Save the youth sum sum sum
-                            </Text>
-                        </View>
-                        <View style={styles.authorInfo}>
-                            <View style={styles.authorPhoto}></View>
-                            <Text style={styles.authorName}>
-                                @username
-                            </Text>
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.blogCard}>
-                    <View style={styles.cardTop}></View>
-                    <View style={styles.cardBottom}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Blog Title
-                            </Text>
-                            <Text style={styles.subTitle}>
-                                Save the youth sum sum sum
-                            </Text>
-                        </View>
-                        <View style={styles.authorInfo}>
-                            <View style={styles.authorPhoto}></View>
-                            <Text style={styles.authorName}>
-                                @username
-                            </Text>
-                        </View>
-                    </View>
-                </View>
-                <View style={styles.blogCard}>
-                    <View style={styles.cardTop}></View>
-                    <View style={styles.cardBottom}>
-                        <View style={styles.cardText}>
-                            <Text style={styles.title}>
-                                Blog Title
-                            </Text>
-                            <Text style={styles.subTitle}>
-                                Save the youth sum sum sum
-                            </Text>
-                        </View>
-                        <View style={styles.authorInfo}>
-                            <View style={styles.authorPhoto}></View>
-                            <Text style={styles.authorName}>
-                                @username
-                            </Text>
-                        </View>
-                    </View>
-                </View>
+                </TouchableOpacity>
             </ScrollView>
             <View style={styles.menuBox}>
                 <View style={styles.menu}>
@@ -412,6 +224,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'gray',
         borderTopLeftRadius: 10,
         borderTopRightRadius: 10,
+        overflow: 'hidden',
     },
     cardBottom: {
         paddingHorizontal: 16,
