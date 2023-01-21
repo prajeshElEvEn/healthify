@@ -25,7 +25,7 @@ It has become the primary concern of this decade which needs to be controlled. M
 
 ## Ar Helpler
 
- file:///home/nqu/Pictures/Screenshots/Screenshot%20from%202023-01-21%2023-41-48.png
+
 ## Blogs
 
 ![Screenshot from 2022-11-20 21-58-47](https://user-images.githubusercontent.com/78909117/202913946-8e73901c-23c7-4140-bb6c-bb41674b9f7c.png)
