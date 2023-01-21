@@ -6,8 +6,10 @@
 
 ## What it does
 
-To overcome the problem of lack of knowledge and resources we have created a platform connecting the local NGOs and government where you can ask for basic health care facilities like blood donation, medicines, and oxygen cylinders.
-But that's not the only problem faced, the major problem is that people don't have the right amount of knowledge which is provided to us. We provide them with the right information regarding the most important like sex education, menstruation problems, hygiene, mental health, etc. through podcasts and blogs by doctors and activists. We also provide disease prediction and you can directly ask for help from NGOs and doctors for that disease.
+Not having basic healthcare Ed. is a widespread problem in society yet no one cares about it. This can lead to serious health problems later.
+Lack of facilities and awareness are the major cause of this problem. People don’t know what the symptoms signify, and find it hard to consult with someone.
+It has become the primary concern of this decade which needs to be controlled. Mental health is one of the that got worse if we don't have proper knowledge about it. Poor mental health or any health-related problem can affect the economy not just directly but also if you look at the opportunity cost and terms of the long-term cost of it. 
+
 
 ## Disease Prediction
 
@@ -20,6 +22,9 @@ But that's not the only problem faced, the major problem is that people don't ha
 ## Podcast
 
 ![Screenshot from 2022-11-20 21-58-44](https://user-images.githubusercontent.com/78909117/202913934-066cddc4-e828-442d-886d-8f2647d3b6b1.png)
+
+## Ar Helpler
+
 
 ## Blogs
 
